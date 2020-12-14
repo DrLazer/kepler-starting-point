@@ -8,4 +8,4 @@ const reducer = combineReducers({
   //app: appReducer
 });
 
-const store = createStore(reducer, {}, applyMiddleware(taskMiddleware));
+export default createStore(reducer, {}, applyMiddleware(taskMiddleware));
