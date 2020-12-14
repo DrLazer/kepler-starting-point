@@ -1,9 +1,12 @@
 import './App.css';
+import './KeplerMap/KeplerMap';
+import KeplerMap from './KeplerMap/KeplerMap';
 
 function App() {
+
   return (
     <div className="App">
-      <h1>Kepler.gl Starting Point</h1>
+      <KeplerMap width='800' height='800'/>
     </div>
   );
 }
