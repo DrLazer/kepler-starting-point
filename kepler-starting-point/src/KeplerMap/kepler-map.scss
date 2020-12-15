@@ -1,6 +1,7 @@
 .kepler-map {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    margin-top: 0px;
+    margin-left: 10px;
 }
